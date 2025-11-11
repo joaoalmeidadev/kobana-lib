@@ -35,14 +35,6 @@ module Kobana
 
       private
 
-      def pix_account_params
-        return nil unless @data.dig(:pix_account, :uid)
-
-        {
-          uid: @data.dig(:pix_account, :uid)
-        }
-      end
-
       def payer_params
         return nil unless @data.dig(:payer)
 
