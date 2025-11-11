@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'httparty', '~> 0.21'
+gem 'cpf_cnpj', '~> 0.5'
+gem 'valid_email2', '~> 4.0'
+
+group :development, :test do
+  gem 'pry'
+  gem 'rspec'
+end
