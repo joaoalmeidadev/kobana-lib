@@ -36,7 +36,7 @@ Crie um arquivo `.env` na raiz do projeto:
 
 ```bash
 KOBANA_API_KEY=seu_token_aqui
-KOBANA_ENV=sandbox  # ou 'production'
+KOBANA_ENV=development  # ou 'production'
 ```
 
 ### Configuração Global
@@ -46,7 +46,7 @@ require_relative 'kobana'
 
 Kobana.configure do |config|
   config.api_key = ENV['KOBANA_API_KEY']
-  config.environment = 'sandbox' # ou 'production'
+  config.environment = 'development' # ou 'production'
 end
 ```
 

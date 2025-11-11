@@ -32,7 +32,7 @@ module Kobana
     end
     
     def environment
-      @environment ||= ENV['KOBANA_ENV'] || 'sandbox'
+      @environment ||= ENV['KOBANA_ENV'] || 'development'
     end
     
     def base_uri
