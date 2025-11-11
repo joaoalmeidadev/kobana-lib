@@ -102,7 +102,7 @@ end
 
 ---
 
-### 💸 Criar Cobrança PIX
+### Criar Cobrança PIX
 
 #### Exemplo de Payload
 
@@ -176,3 +176,4 @@ O client segue uma arquitetura modular, separando responsabilidades:
 
 -> Criar testes rspec garantindo a lógica das validações
 -> subsituir validação com rgex usando libs existentes como validar email ou estados por exemplo.
+-> revisar cada campo da API deixando disponível todos opcionais na lib
