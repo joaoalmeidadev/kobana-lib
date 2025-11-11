@@ -7,7 +7,7 @@ module Kobana
 
     def initialize(data: {}, api_key: nil, which_endpoint: nil)
       @data = data
-      @api_key = api_key || ENV['KOBANA_API_KEY']
+      @api_key = Kobana.api_key || ENV['KOBANA_API_KEY']
       @which_endpoint = which_endpoint
       
       raise ArgumentError, 'API key is required' if @api_key.nil? || @api_key.empty?
