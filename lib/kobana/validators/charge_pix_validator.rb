@@ -31,7 +31,7 @@ module Kobana
 
       def call
         unless valid?
-          raise ValidationError, error_messages
+          raise Kobana::Errors::ValidationError, @errors
         end
         true
       end
@@ -277,7 +277,5 @@ module Kobana
         @errors << message
       end
     end
-
-    class ValidationError < StandardError; end
   end
 end

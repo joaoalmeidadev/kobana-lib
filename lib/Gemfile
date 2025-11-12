@@ -7,4 +7,5 @@ gem 'valid_email2', '~> 4.0'
 group :development, :test do
   gem 'pry'
   gem 'rspec'
+  gem 'webmock'
 end
