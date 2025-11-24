@@ -172,7 +172,8 @@ O client segue uma arquitetura modular, separando responsabilidades:
 ---
 
 
-## Próximos passos: 
+## Próximos passos
 
--> subsituir validação com rgex usando libs existentes como validar email ou estados por exemplo.
--> revisar cada campo da API deixando disponível outros na lib
+- Substituir validação com **regex**, usando libs existentes para validações comuns (como e-mail, estados, CEP, telefone, etc.).
+- Revisar cada campo da API, deixando disponíveis outros campos adicionais na lib.
+
