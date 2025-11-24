@@ -174,6 +174,5 @@ O client segue uma arquitetura modular, separando responsabilidades:
 
 ## Próximos passos: 
 
--> Criar testes rspec garantindo a lógica das validações
 -> subsituir validação com rgex usando libs existentes como validar email ou estados por exemplo.
--> revisar cada campo da API deixando disponível todos opcionais na lib
+-> revisar cada campo da API deixando disponível outros na lib
