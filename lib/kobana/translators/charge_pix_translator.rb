@@ -21,7 +21,6 @@ module Kobana
           additional_info: @data.dig(:additional_info),
           registration_kind: @data.dig(:registration_kind) || 'instant',
           custom_data: @data.dig(:custom_data),
-          external_id: @data.dig(:external_id),
           fine_percentage: @data.dig(:fine_percentage),
           reduction_type: @data.dig(:reduction_type) || 0,
           reduction_amount: @data.dig(:reduction_amount),

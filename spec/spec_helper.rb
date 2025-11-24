@@ -3,7 +3,7 @@ Bundler.require(:default, :test)
 
 require 'webmock/rspec'
 
-require_relative '../kobana'
+require_relative '../lib/kobana'
 
 RSpec.configure do |config|
   # Bloqueia todas as requisições HTTP reais durante os testes
